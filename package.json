@@ -1,0 +1,31 @@
+{
+  "name": "frontend-code-challenge-master",
+  "version": "1.0.0",
+  "description": "An interview test for Front-End Development job candidates",
+  "main": "index.js",
+  "repository": "git@github.com:OskHa/frontend_interview_test.git",
+  "author": "Tejas Kumar <tejas.kumar@mcmakler.de>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "serve": "webpack-dev-server"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "create-react-app": "^2.1.1",
+    "express": "^4.16.2",
+    "morgan": "^1.9.1",
+    "request": "^2.83.0",
+    "request-json": "^0.6.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "eslint": "^4.0.0",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}

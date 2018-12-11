@@ -1,0 +1,23 @@
+.card .card-image .card-title{
+	position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 100%;
+    padding: 7px;
+    font-size: 14px;
+    background: #fff;
+    color: grey;
+    bottom: auto;
+}
+.card-mini-action{
+    font-size: 13px;
+    margin-top: 5px;
+    color: lightgray;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+.price {
+    font-weight: 700;
+}
